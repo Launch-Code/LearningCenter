@@ -1,0 +1,12 @@
+.active-action {
+    padding-top: 15px;
+}
+.active-action button {
+    margin-right: 10px;
+}
+.inactive-action button {
+    display: none;
+}
+.clickable {
+    cursor: pointer;
+}
