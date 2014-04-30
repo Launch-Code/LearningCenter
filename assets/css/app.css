@@ -1,3 +1,11 @@
+html {
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .active-action {
     padding-top: 15px;
 }
@@ -9,4 +17,50 @@
 }
 .clickable {
     cursor: pointer;
+}
+
+#main-content {
+	background: #fff;
+	margin-top: 50px;
+	min-height: 600px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-bottom: 50px;
+}
+
+#page-header {
+	background: #1F2329;
+	padding: 15px 20px;	
+	position: relative;
+	margin-bottom: 35px;
+}
+
+#page-header > img {
+	height: 75px;
+}
+
+#page-header h1 { 
+	color: #fff;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+
+#choice-container {
+	display: none;
+	opacity: 0;
+	-webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+#intro-text {
+	-webkit-transition: all 1s ease;
+    transition: all 1s ease;
+	overflow: hidden;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+#intro-text img {
+	max-width: 100%;
 }
