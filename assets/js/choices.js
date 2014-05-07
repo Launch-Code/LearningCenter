@@ -107,6 +107,10 @@ window['launch-data'] = [
                     {
                         "description": "Google",
                         "href": "http://google.com"
+                    },
+                    {
+                        "description": "Php.net Manual",
+                        "href": "http://www.php.net/manual/en/"
                     }
                 ]
             }
